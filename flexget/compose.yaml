@@ -1,0 +1,15 @@
+services:
+  flexget:
+    image: ghcr.io/flexget/flexget
+    container_name: flexget
+    command:
+      - daemon
+      - start
+      - --autoreload-config         # optional
+    ports:
+      - 5050:5050                   # optional: for webui
+    environment:
+      - TZ=Europe/Rome                # optional: defaults to UTC
+    volumes:
+      - /docker/flexget/config:/config        # required
+      - /media/downloads:/downloads

@@ -1,0 +1,8 @@
+tasks:
+  tv:
+    rss: http://example.com/torrents.xml
+    series:
+      - some series
+      - another series
+    download: /media/tv
+
