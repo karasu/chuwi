@@ -3,8 +3,8 @@ services:
     image: lscr.io/linuxserver/transmission:latest
     container_name: transmission
     environment:
-      - PUID=0
-      - PGID=0
+      - PUID=1000
+      - PGID=1000
       - TZ=Europe/Rome
       - TRANSMISSION_WEB_HOME=transmission.gustau.cat
       - USER=transmission
@@ -14,7 +14,7 @@ services:
       - BLOCKLIST_ENABLED=true
       - BLOCKLIST_URL=https://mirror.codebucket.de/transmission/blocklist.p2p.gz
     volumes:
-      - /docker/transmission/config:/config
+      - /docker/transmission:/config
       - /data/downloads:/downloads
       - /data/watch:/watch
     ports:

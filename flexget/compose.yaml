@@ -11,5 +11,5 @@ services:
     environment:
       - TZ=Europe/Rome                # optional: defaults to UTC
     volumes:
-      - /docker/flexget/config:/config        # required
+      - /docker/flexget:/config        # required
       - /media/downloads:/downloads
