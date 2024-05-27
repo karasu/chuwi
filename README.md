@@ -4,6 +4,7 @@ Docker compose files (passwords and folders set as an example)
 - Cloudflared [https://www.cloudflare.com]
 - Flexget [https://flexget.com/]
 - Homebridge [https://homebridge.io/]
+- Homepage [https://gethomepage.dev/]
 - Jellyfin [https://jellyfin.org/]
 - Nginx proxy manager [https://nginxproxymanager.com/]
 - Portainer [https://www.portainer.io/]
