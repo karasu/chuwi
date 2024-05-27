@@ -3,6 +3,8 @@ services:
     image: 'jc21/nginx-proxy-manager'
     restart: unless-stopped
     container_name: proxy
+    environment:
+      - TZ=Europe/Rome
     ports:
       - '80:80'
       - '81:81'
