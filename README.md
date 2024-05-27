@@ -8,4 +8,5 @@ Docker compose files (passwords and folders set as an example)
 - Jellyfin [https://jellyfin.org/]
 - Nginx proxy manager [https://nginxproxymanager.com/]
 - Portainer [https://www.portainer.io/]
+- Sonarr [https://sonarr.tv/]
 - Transmission [https://transmissionbt.com/]
