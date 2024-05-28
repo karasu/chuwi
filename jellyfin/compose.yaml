@@ -1,7 +1,7 @@
 services:
   jellyfin:
     image: jellyfin/jellyfin
-    container_name: jellyfin
+    container_name: jellyfin.gustau.cat
     user: 1000:1000
     network_mode: 'host'
     volumes:
