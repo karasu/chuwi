@@ -8,6 +8,6 @@ services:
     ports:
       - 4000:3000
     volumes:
-      - /docker/homepage:/app/config # Make sure your local config directory exists
-      - /var/run/docker.sock:/var/run/docker.sock:ro # optional, for docker integrations
+      - /docker/homepage:/app/config
+      - /var/run/docker.sock:/var/run/docker.sock:ro
     restart: unless-stopped

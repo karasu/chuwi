@@ -10,5 +10,5 @@ services:
       - PGID=1000
       - TZ=Europe/Rome
     volumes:
-      - /docker/cloudflare-ddns/config.json:/config.json
+      - /docker/ddns/config.json:/config.json
     restart: unless-stopped
