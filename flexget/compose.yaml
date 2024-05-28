@@ -1,7 +1,7 @@
 services:
   flexget:
     image: ghcr.io/flexget/flexget
-    container_name: flexget
+    container_name: flexget.gustau.cat
     command:
       - daemon
       - start
