@@ -1,7 +1,7 @@
 services:
   cloudflare-ddns:
     image: timothyjmiller/cloudflare-ddns:latest
-    container_name: cloudflare-ddns
+    container_name: ddns.gustau.cat
     security_opt:
       - no-new-privileges:true
     network_mode: "host"
