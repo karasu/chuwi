@@ -9,7 +9,7 @@ services:
       - TRANSMISSION_WEB_HOME=transmission.gustau.cat
       - USER=transmission
       - PASS=transmission
-      - WHITELIST=127.0.0.1,10.1.2.*,10.1.3.*
+      - WHITELIST=127.0.0.1,10.1.2.*,10.1.3.*,172.*.*.*
       - PEERPORT=51413
       - BLOCKLIST_ENABLED=true
       - BLOCKLIST_URL=https://mirror.codebucket.de/transmission/blocklist.p2p.gz
