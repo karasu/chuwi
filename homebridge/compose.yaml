@@ -1,7 +1,7 @@
 services:
   homebridge:
     image: homebridge/homebridge:latest
-    container_name: homebridge
+    container_name: homebridge.gustau.cat
     restart: always
     network_mode: host
     environment:
